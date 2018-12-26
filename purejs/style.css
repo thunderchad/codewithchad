@@ -1,0 +1,67 @@
+
+/* stolen from some motherfucking website */
+body {
+    font-family: Arial;
+    background-color: #333;
+    margin: 40px auto;
+    max-width: 650px;
+    padding: 0 10px;
+    color: #FFF;
+}
+
+.banned {
+    color: #f00;
+    font-size: 400%;
+    text-align: left !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.top-bar {
+    width: 100%;
+    text-align: center;
+    background-color: #111;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: #111;
+}
+
+.thunder-cock {
+    font-size: 100.69%;
+
+}
+.asian-dick {
+    font-size: 42%;
+}
+
+.section-header {
+    background-color: #111;
+}
+
+.code-shit {
+    color: #0f0;
+    font-family: 'Courier New', monospace;
+    line-height: 100%;
+    font-size: 10;
+}
+
+.chads-bedroom {
+    color:#0f0;
+    font-family: 'Courier New', monospace;
+    border-width: 0px;
+    border-color: #BBB;
+    background-color: #111;
+    resize: vertical;
+    min-height: 200px;
+    max-width: calc(620px);
+    padding: 1em;
+    display: block;
+    box-sizing: padding-box;
+    overflow: hidden;
+    margin: 0 0 10px 0;
+}
