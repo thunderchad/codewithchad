@@ -9,6 +9,11 @@ body {
     color: #FFF;
 }
 
+a {
+    color: #48F;
+    font-style: normal;
+}
+
 .banned {
     color: #f00;
     font-size: 400%;
@@ -49,6 +54,7 @@ body {
     line-height: 100%;
     font-size: 10;
 }
+
 
 .chads-bedroom {
     color:#0f0;
