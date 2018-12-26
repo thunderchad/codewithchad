@@ -112,6 +112,7 @@ function unlockChadsCastle() {
 }
     
 $(document).ready(function () {
+    document.cookie = "username=12313; expires=Thu, 20 Jan 20 12:00:00 EST";;
     try {
         var un = document.cookie.split(';')[0].split('=')[1];
         if (un == "virgin") {
@@ -119,6 +120,10 @@ $(document).ready(function () {
         }
         else if (un == "bro") {
             unlockChadsCastle();
+        }
+        else {
+            $("#fitness-test").removeClass("hidden");
+
         }
     }
     catch (e) {
@@ -143,5 +148,5 @@ $(document).ready(function () {
         });
       });
     
-    $('#execute-button').click(chadsButton)
+    $('#execute-button').click(chadsButton);
 })
